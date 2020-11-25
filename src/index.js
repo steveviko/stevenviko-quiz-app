@@ -30,7 +30,7 @@ class Quiz extends Component {
       })
 
       this.setState({
-        responses:this.state.responses < 5 ? this.state.responses +1 : 10
+        responses:this.state.responses < 10 ? this.state.responses +1 : 10
       })
 
      }
